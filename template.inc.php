@@ -10,7 +10,7 @@ define('TPL_C_DIR', ROOT_PATH.'/templates_c/');
 //缓存目录
 define('CACHE', ROOT_PATH.'/cache/');
 //是否开启缓冲区
-define('IS_CACHE', true);
+define('IS_CACHE', false);
 //判断是否开启缓冲区
 IS_CACHE ? ob_start() : null;
 //引入模板类

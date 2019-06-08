@@ -1,0 +1,185 @@
+@charset "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dl,dl,dd{
+	padding:0;
+	margin:0;
+}
+body{
+	width:100%;
+	height:100%;
+	/*总字号大小*/
+	font-size:16px;
+	color:#666;
+	background: #fff;
+}
+ul{
+	list-style-type: none;
+}
+#warpper{
+	width:1240px;
+	margin:0 auto;
+}
+#top{
+	height:39px;
+	margin:0 0 10px 0;
+	text-align: right;
+}
+#top a{
+	display:inline-block;
+	padding:5px 10px 0 0;
+	color:red;
+}
+#header{
+	height:120px;
+}
+#header h1{
+	width:320px;
+	height:120px;
+	background:url('../images/logo.png');
+	font-size: 12px;
+	float:left;
+}
+#header h1 a{
+	height:120px;
+	display:block;
+	backgroud:green;
+	text-indent: -9999px;
+}
+#header div.adver{
+	width:900px;
+	height:120px;
+	float:right;
+}
+#header div.adver img{
+	display:block;
+	border:none;
+}
+#nav{
+	height:52.5px;
+	border:1px solid #ccc;
+	background:url('../images/nav_bg.png');
+	border-bottom:none;
+}
+#nav ul{
+	height:52.5px;
+	line-height: 52.5px;
+	font-size:16px;
+	font-weight:bold;
+	padding:0 0 0 42px;
+}
+#nav ul li{
+	margin:0 10px 0 10px;
+	display:inline;
+	padding:0 10px;
+}
+#nav ul li a{
+	color:#369;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color:#f60;
+}
+#search{
+	height:30px;
+	margin:0 0 10px 0;
+	border:1px solid #ccc;
+	border-top:none;
+	padding:5px 0 0 5px;
+}
+#search form{
+	float: left;
+}
+#search form select{
+	height:25px;
+	font-size:14px;
+	background: #fff;
+}
+#search form input.text{
+	width:220px;
+	height:20px;
+	background: #fff;
+}
+#search form input.submit{
+	width:45px;
+	height:25px;
+}
+#search strong{
+	float: left;
+	padding:2px 0 0 20px;
+}
+#search ul{
+	padding:2px 0 0 0;
+	float: left;
+}
+#search ul li{
+	float:left;
+	padding:0 20px 0 0 ;
+}
+#search ul li a{
+	color:green;
+	text-decoration: none;
+}
+#search ul li a:hover{
+	color:#f60;
+}
+#user{
+	width:348.75px;
+	height:600px;
+	float: right;
+	background:blue;
+	margin:0 0 10px 0;
+}
+#news{
+	width:516px;
+	height:600px;
+	float: right;
+	margin:0 10px 10px 0;
+	background: red;
+}
+#pic{
+	width:348.75px;
+	height:292.5px;
+	float: left;
+	margin:0 0 10px 0;
+	background: blue;
+}
+#rec{
+	width:348.75px;
+	height:296px;
+	float: left;
+	margin:0 0 12px 0;
+	background: green;
+}
+#sidebar-right{
+	width:348.75px;
+	height:1252.5px;
+	float: right;
+	margin:0 0 10px 0;
+	background: green;
+}
+#picnews{
+	width:878px;
+	height:300px;
+	float: left;
+	margin:0 0 10px 0;
+	background: #ff0080;
+}
+#newslist{
+	width:878px;
+	height:942px;
+	float: left;
+	background: #00ff80;
+}
+#link{
+	width:1240px;
+	height:110px;
+	float: left;
+	margin:0 0 10px 0;
+	background: #ff0000;
+}
+#footer{
+	width:1240px;
+	height:40px;
+	float: left;
+	background: #0080ff;
+}
+
